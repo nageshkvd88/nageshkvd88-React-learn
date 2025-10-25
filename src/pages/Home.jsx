@@ -4,6 +4,7 @@ import Banner from '../components/Banner'
 import UserefExample from '../userefexamples/example'
 import UserefExamples from '../userefexamples/example2'
 import Memoexample from '../hooks/usememoExample/memoexample'
+import UserefExamp from '../userefexamples/example3'
 const Home = () => {
   return (
   <>
@@ -11,7 +12,8 @@ const Home = () => {
     <Banner />
      {/* <UserefExample /> 
     <UserefExamples /> */}
-    <Memoexample />
+    {/* <Memoexample /> */}
+    <UserefExamp />
   </>
   )
 }
