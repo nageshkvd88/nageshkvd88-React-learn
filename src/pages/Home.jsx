@@ -5,6 +5,7 @@ import UserefExample from '../userefexamples/example'
 import UserefExamples from '../userefexamples/example2'
 import Memoexample from '../hooks/usememoExample/memoexample'
 import UserefExamp from '../userefexamples/example3'
+import ReducerExample from '../hooks/useReducer/reducerExample'
 const Home = () => {
   return (
   <>
@@ -13,7 +14,8 @@ const Home = () => {
      {/* <UserefExample /> 
     <UserefExamples /> */}
     {/* <Memoexample /> */}
-    <UserefExamp />
+    {/* <UserefExamp /> */}
+   <ReducerExample />
   </>
   )
 }

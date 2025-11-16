@@ -23,7 +23,7 @@ const Memoexample = () => {
             <button className='btn btn-danger btn-md' onClick={()=>setisActive(!isActive)}>Toggle Status</button>
         </Col>
     </Row>
-   </Container>
+   </Container> 
   )
 }
 
